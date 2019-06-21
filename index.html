@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+  <meta charset="utf-8">
+  <title>Alpnetz</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    img {
+      display: block;
+      height: auto;
+      margin: 0 auto;
+      max-width: 100%;
+    }
+
+    .pic {
+      display: block;
+      margin: 0 auto;
+      max-width: 1024px;
+      width: 90%;
+    }
+
+    .container {
+      align-items: center;
+      background: #000;
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+    }
+  </style>
+
+</head>
+
+<body>
+
+<div class="container">
+  <picture class="pic">
+    <source media="(max-width: 480px)"
+            srcset="images/alpnetz_logo_480.png">
+    <source media="(max-width: 1024px)"
+            srcset="images/alpnetz_logo_1024.png">
+    <img src="images/alpnetz_logo_1024.png" alt="">
+  </picture>
+</div>
+
+</body>
+</html>
